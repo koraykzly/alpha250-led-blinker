@@ -1,0 +1,41 @@
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;    
+    text-align: center;
+    background: #f4f6f7;
+    border-radius: 10px;
+}
+main button {
+    width: 80px;
+    height: 20px;
+    border: solid 1px gray;
+    background-color: #dddddd;
+    border-radius: 5px;
+    height: 24px;
+}
+main button:hover {
+    border-color: red;
+}
+#int-input {
+    width: 100px;
+    height: 24px;
+}
+.buttons {
+    margin-top: 25px;
+}
+
+.buttons button {
+    width: 60px;
+}
+.status {
+    margin-top: 25px;
+    font-family: 'Arial';
+    font-size: 15px;
+}
+.back-btn {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    width: 50px;
+}
